@@ -3,19 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B7806B93C81A6BF610DB38D /* Pods_Long_Term.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF1E3B223743EA58225E7E7 /* Pods_Long_Term.framework */; };
+		FC63E9FB26A2518100CD2091 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC63E9FA26A2518100CD2091 /* Utilities.swift */; };
+		FC6593D826ADE6FD00CA66C0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC6593D726ADE6FD00CA66C0 /* GoogleService-Info.plist */; };
+		FC8EB9A626A7C4BB0058F60E /* forgot_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8EB9A526A7C4BB0058F60E /* forgot_ViewController.swift */; };
+		FCC9B0DD26AE50550013F019 /* forgotcomplete_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC9B0DC26AE50550013F019 /* forgotcomplete_ViewController.swift */; };
+		FCC9B0DF26AFAD0F0013F019 /* Complete_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC9B0DE26AFAD0F0013F019 /* Complete_ViewController.swift */; };
+		FCC9B0E126B38D000013F019 /* verifiedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC9B0E026B38D000013F019 /* verifiedViewController.swift */; };
 		FCDB4FBD269A292F00BB3018 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDB4FBC269A292F00BB3018 /* AppDelegate.swift */; };
 		FCDB4FBF269A292F00BB3018 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDB4FBE269A292F00BB3018 /* SceneDelegate.swift */; };
 		FCDB4FC1269A292F00BB3018 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDB4FC0269A292F00BB3018 /* ViewController.swift */; };
 		FCDB4FC4269A292F00BB3018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCDB4FC2269A292F00BB3018 /* Main.storyboard */; };
 		FCDB4FC6269A293100BB3018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCDB4FC5269A293100BB3018 /* Assets.xcassets */; };
 		FCDB4FC9269A293100BB3018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCDB4FC7269A293100BB3018 /* LaunchScreen.storyboard */; };
+		FCDB4FD1269A3AD400BB3018 /* login_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDB4FD0269A3AD400BB3018 /* login_ViewController.swift */; };
+		FCDB4FD3269A3AEE00BB3018 /* signup_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDB4FD2269A3AEE00BB3018 /* signup_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DED5ECF3EF922F57B46AAC35 /* Pods-Long Term.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Long Term.debug.xcconfig"; path = "Target Support Files/Pods-Long Term/Pods-Long Term.debug.xcconfig"; sourceTree = "<group>"; };
+		EBF1E3B223743EA58225E7E7 /* Pods_Long_Term.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Long_Term.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A0BDD2F39C11C60D47AF7E /* Pods-Long Term.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Long Term.release.xcconfig"; path = "Target Support Files/Pods-Long Term/Pods-Long Term.release.xcconfig"; sourceTree = "<group>"; };
+		FC63E9FA26A2518100CD2091 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		FC6593D726ADE6FD00CA66C0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FC8EB9A526A7C4BB0058F60E /* forgot_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgot_ViewController.swift; sourceTree = "<group>"; };
+		FC8EB9AB26ACD1020058F60E /* Long Term.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Long Term.entitlements"; sourceTree = "<group>"; };
+		FCC9B0DC26AE50550013F019 /* forgotcomplete_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotcomplete_ViewController.swift; sourceTree = "<group>"; };
+		FCC9B0DE26AFAD0F0013F019 /* Complete_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Complete_ViewController.swift; sourceTree = "<group>"; };
+		FCC9B0E026B38D000013F019 /* verifiedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verifiedViewController.swift; sourceTree = "<group>"; };
 		FCDB4FB9269A292F00BB3018 /* Long Term.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Long Term.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDB4FBC269A292F00BB3018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCDB4FBE269A292F00BB3018 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +43,8 @@
 		FCDB4FC5269A293100BB3018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCDB4FC8269A293100BB3018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCDB4FCA269A293100BB3018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCDB4FD0269A3AD400BB3018 /* login_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login_ViewController.swift; sourceTree = "<group>"; };
+		FCDB4FD2269A3AEE00BB3018 /* signup_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signup_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +52,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B7806B93C81A6BF610DB38D /* Pods_Long_Term.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55498387E0D8936DD4E7F95E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DED5ECF3EF922F57B46AAC35 /* Pods-Long Term.debug.xcconfig */,
+				F7A0BDD2F39C11C60D47AF7E /* Pods-Long Term.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B16E010346A6A09FF3DB29F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBF1E3B223743EA58225E7E7 /* Pods_Long_Term.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC63E9F926A2516A00CD2091 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FC63E9FA26A2518100CD2091 /* Utilities.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
 		FCDB4FB0269A292F00BB3018 = {
 			isa = PBXGroup;
 			children = (
 				FCDB4FBB269A292F00BB3018 /* Long Term */,
 				FCDB4FBA269A292F00BB3018 /* Products */,
+				55498387E0D8936DD4E7F95E /* Pods */,
+				B16E010346A6A09FF3DB29F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +105,32 @@
 		FCDB4FBB269A292F00BB3018 /* Long Term */ = {
 			isa = PBXGroup;
 			children = (
+				FC6593D726ADE6FD00CA66C0 /* GoogleService-Info.plist */,
+				FC8EB9AB26ACD1020058F60E /* Long Term.entitlements */,
+				FC63E9F926A2516A00CD2091 /* helpers */,
+				FCDB4FD4269A3AF800BB3018 /* View Controllers */,
 				FCDB4FBC269A292F00BB3018 /* AppDelegate.swift */,
 				FCDB4FBE269A292F00BB3018 /* SceneDelegate.swift */,
-				FCDB4FC0269A292F00BB3018 /* ViewController.swift */,
 				FCDB4FC2269A292F00BB3018 /* Main.storyboard */,
 				FCDB4FC5269A293100BB3018 /* Assets.xcassets */,
 				FCDB4FC7269A293100BB3018 /* LaunchScreen.storyboard */,
 				FCDB4FCA269A293100BB3018 /* Info.plist */,
 			);
 			path = "Long Term";
+			sourceTree = "<group>";
+		};
+		FCDB4FD4269A3AF800BB3018 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FCDB4FC0269A292F00BB3018 /* ViewController.swift */,
+				FCDB4FD0269A3AD400BB3018 /* login_ViewController.swift */,
+				FCDB4FD2269A3AEE00BB3018 /* signup_ViewController.swift */,
+				FC8EB9A526A7C4BB0058F60E /* forgot_ViewController.swift */,
+				FCC9B0DC26AE50550013F019 /* forgotcomplete_ViewController.swift */,
+				FCC9B0DE26AFAD0F0013F019 /* Complete_ViewController.swift */,
+				FCC9B0E026B38D000013F019 /* verifiedViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCDB4FCD269A293100BB3018 /* Build configuration list for PBXNativeTarget "Long Term" */;
 			buildPhases = (
+				B18238798ABA336A474CD5C1 /* [CP] Check Pods Manifest.lock */,
 				FCDB4FB5269A292F00BB3018 /* Sources */,
 				FCDB4FB6269A292F00BB3018 /* Frameworks */,
 				FCDB4FB7269A292F00BB3018 /* Resources */,
+				A6388099E1035B802B69FEEC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCDB4FC9269A293100BB3018 /* LaunchScreen.storyboard in Resources */,
+				FC6593D826ADE6FD00CA66C0 /* GoogleService-Info.plist in Resources */,
 				FCDB4FC6269A293100BB3018 /* Assets.xcassets in Resources */,
 				FCDB4FC4269A292F00BB3018 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +201,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A6388099E1035B802B69FEEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Long Term/Pods-Long Term-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Long Term/Pods-Long Term-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Long Term/Pods-Long Term-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B18238798ABA336A474CD5C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Long Term-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FCDB4FB5269A292F00BB3018 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC63E9FB26A2518100CD2091 /* Utilities.swift in Sources */,
+				FCDB4FD1269A3AD400BB3018 /* login_ViewController.swift in Sources */,
+				FCC9B0DF26AFAD0F0013F019 /* Complete_ViewController.swift in Sources */,
 				FCDB4FC1269A292F00BB3018 /* ViewController.swift in Sources */,
+				FCC9B0E126B38D000013F019 /* verifiedViewController.swift in Sources */,
+				FCDB4FD3269A3AEE00BB3018 /* signup_ViewController.swift in Sources */,
+				FC8EB9A626A7C4BB0058F60E /* forgot_ViewController.swift in Sources */,
 				FCDB4FBD269A292F00BB3018 /* AppDelegate.swift in Sources */,
+				FCC9B0DD26AE50550013F019 /* forgotcomplete_ViewController.swift in Sources */,
 				FCDB4FBF269A292F00BB3018 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,17 +401,22 @@
 		};
 		FCDB4FCE269A293100BB3018 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED5ECF3EF922F57B46AAC35 /* Pods-Long Term.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Long Term/Long Term.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MTM7QXS8T8;
 				INFOPLIST_FILE = "Long Term/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cavalloapp.Long-Term";
+				PRODUCT_BUNDLE_IDENTIFIER = cavalloapp.liquidity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,17 +424,22 @@
 		};
 		FCDB4FCF269A293100BB3018 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7A0BDD2F39C11C60D47AF7E /* Pods-Long Term.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Long Term/Long Term.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MTM7QXS8T8;
 				INFOPLIST_FILE = "Long Term/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cavalloapp.Long-Term";
+				PRODUCT_BUNDLE_IDENTIFIER = cavalloapp.liquidy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
